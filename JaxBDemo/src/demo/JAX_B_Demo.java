@@ -10,7 +10,7 @@ public class JAX_B_Demo {
 		Employee e=new Employee("E101", "emp1", 2_00_000);
 		jaxb.marshal(e);
 		System.out.println("-------------------------------------------");
-		jaxb.unMarshal();
+		jaxb.unMarshal();	
 	}
 
 }

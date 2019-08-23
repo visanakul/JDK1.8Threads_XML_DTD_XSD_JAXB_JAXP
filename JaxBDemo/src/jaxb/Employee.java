@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "employee")
-public class Employee {
+public class Employee extends EmployeeSuper{
 
 	private String id;
 	private String name;
